@@ -1,0 +1,30 @@
+import java.util.*;
+class reverse;
+public static void main(String[]args)
+{
+    Scanner obj=new Scanner(System.in);
+    int num=obj.nextInt();
+    int rem,rev=0,sum;
+    while(rem!=0)
+    {
+        rem=num%10;
+        rev=rev*10+rem;
+        num/=10;
+    System.out.println(rev);
+    if(rev%2!=0)
+    {
+    System.out.println("ODD");
+    }
+    else
+    {
+        System.out.println("even");
+    }
+    while(rev!=0)
+    {
+      rem=rev!=0;
+      sum=sum+rem;
+      rev/=10
+    }
+    System.out,println(sum);
+    }
+}
